@@ -291,11 +291,18 @@ nav {
 }
 .counter {
   position: relative;
-  height: 100%;
-  background-image: url(/img/stats-bg.jpg);
-  background-repeat: no-repeat;
+  height: 105%;
+  /* background-image: url('img/counter.jpg'); */
+    /* background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
+}
+.counter img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  object-fit: cover;
 }
 .overlay-counter {
   position: absolute;
